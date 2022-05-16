@@ -1,0 +1,60 @@
+body {
+    background: burlywood;
+    font-family: 'Cabin';
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+p {
+    font-size: 30px;
+}
+li {
+    list-style: none; /*saca los puntos a los items */
+    margin-right: 25px;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;
+}
+.lista{
+    display: flex;
+}
+.redes{
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+    background: #5cb8ff;
+    /*padding: 20px; el padding es el espaciado interno de los componentes*/
+    padding: 5px 20px 5px 20px; /*top right botton left*/
+}
+.titular{
+    text-align: center;
+    margin-top: 200px;
+}
+h1 {
+    font-size: 60px;
+    margin: 0px; /*este es el margen de los cuatros lados*/
+}
+h2 {
+    font-size: 25px;
+    margin: 0px; /*este es el margen de los cuatros lados*/
+    margin-bottom: 20px;
+}
+header{
+    background: url(fondo1.jpg);
+    height: 100vh;/*viewport height el elemento ocupa el 100% del alto de la ventana*/
+    background-size: cover;/*ubica el fondo adaptandolo a la ventana*/
+}
+/* .primer-elemento {
+    color: blue;
+}
+
+#segundo-elemento {
+    color: brown;
+} ejemplos*/
