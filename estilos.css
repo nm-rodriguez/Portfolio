@@ -51,10 +51,59 @@ header{
     height: 100vh;/*viewport height el elemento ocupa el 100% del alto de la ventana*/
     background-size: cover;/*ubica el fondo adaptandolo a la ventana*/
 }
-/* .primer-elemento {
-    color: blue;
+.nombre {
+    background: #CCBDA0;
+    padding: 00px;
+}
+.contenedor-sobre-mi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+.imagen-sobre-mi{
+    max-width: 400px;
+    max-height: 350px;
+}
+.contenedor-parrafoyboton{
+    width: 42%;/*porcentaje es mejor para el responsive design*/
+}
+.contenedor-parrafoyboton a{
+    margin-top: 25px;
+    display: inline-block;/*esto le da propiedades al elemento en linea las propiedades de los de bloque*/
 }
 
-#segundo-elemento {
-    color: brown;
-} ejemplos*/
+.contenedor-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio{
+    width: 22%;
+    padding: 65px 38px 65px 38px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    color: white;
+}
+.violeta{
+    background: #5055df;
+}
+
+.celeste{
+    background: #40a8fa;
+}
+
+.servicio h4{
+    font-size: 30px;
+}
+.servicio p{
+    font-size: 18px;
+}
+.servicio-icono{
+    float: right;
+}
