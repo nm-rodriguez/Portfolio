@@ -121,3 +121,23 @@ span{
 .owl-nav{
     text-align: center;
 }
+
+.contenedor-porque{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.contenedor-porque h4{
+    margin: 0;
+    font-size: 20px;
+}
+
+.contenedor-porque p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.porque-singular{
+    width: 30%;
+}
