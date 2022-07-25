@@ -5,6 +5,9 @@
     <title>Portfolio Nicolás</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -44,7 +47,7 @@
     </div>
 </section>
 
-<section>
+<section class="seccion-2">
     <div class="contenedor">
         <h3>Servicios</h3>
         <div class="contenedor-servicios">
@@ -52,35 +55,77 @@
             <div class="servicio celeste">
                 <h4>Diseño Web</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                <img class="servicio-icono" src="noExiste.png" alt="">
+                <img src="1-diseño.png" alt="">
             </div>
             <div class="servicio violeta">
                 <h4>Responsive Design</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                <img src="noExiste.png" alt="">
+                <img src="2-responsive.png" alt="">
             </div>
             <div class="servicio celeste">
                 <h4>SEO</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                <img src="noExiste.png" alt="">
+                <img src="3-administrable.png" alt="">
             </div>
             <div class="servicio violeta">
                 <h4>Autoadministrable</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                <img src="noExiste.png" alt="">
+                <img src="3-administrable.png" alt="">
             </div>
             <div class="servicio celeste">
                 <h4>Mantenimiento</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                <img src="noExiste.png" alt="">
+                <img src="5-mantenimiento.png" alt="">
             </div>
             <div class="servicio violeta">
                 <h4>Marketing Digital</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                <img src="noExiste.png" alt="">
+                <img src="6-marketing.png" alt="">
             </div>
         </div>
     </div>
 </section>
+<section>
+    <div class="contenedor">
+        <!-- Set up your HTML -->
+        <h3>Mis redes</h3>
+        <div class="owl-carousel">
+            <div> <img src="carousel-1.png"></div>
+            <div> <img src="carousel-2.png"></div>
+            <div> <img src="carousel-3.png"></div>
+            <div> <img src="carousel-4.png"></div>
+            <div> <img src="carousel-5.png"></div>
+            <div> <img src="carousel-6.png"></div>
+            <div> <img src="carousel-7.png"></div>
+            <div> <img src="carousel-8.png"></div>
+            <div> <img src="carousel-9.png"></div>
+            <div> <img src="carousel-10.png"></div>
+
+            
+        </div>
+    </div>
+</section>
+
+<script src="owlcarousel/jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+</script>
 </body>
 </html>

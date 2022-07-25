@@ -85,11 +85,12 @@ h3{
 
 .servicio{
     width: 22%;
-    padding: 65px 38px 65px 38px;
-    border-radius: 10px;
+    padding: 30px 28px 30px 28px;
+    border-radius: 15px;
     margin-bottom: 25px;
     color: white;
 }
+
 .violeta{
     background: #5055df;
 }
@@ -99,11 +100,24 @@ h3{
 }
 
 .servicio h4{
-    font-size: 30px;
+    font-size: 23px;
+    margin: 0;
 }
 .servicio p{
     font-size: 18px;
+    height: 100px;/* esto corrige la nivelacion de los textos */
 }
-.servicio-icono{
+.servicio img{
     float: right;
+    background-color: azure;
+    border-radius: 25%;
+}
+
+span{
+    font-size: 80px;
+    color: blue;
+}
+
+.owl-nav{
+    text-align: center;
 }
