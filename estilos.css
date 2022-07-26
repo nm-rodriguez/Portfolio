@@ -25,14 +25,21 @@ li {
 .lista{
     display: flex;
 }
-.redes{
+.botones{
     margin-right: 25px;
     text-decoration: none;
     color: white;
     background: #5cb8ff;
     /*padding: 20px; el padding es el espaciado interno de los componentes*/
     padding: 5px 20px 5px 20px; /*top right botton left*/
+    transition: .7s;
 }
+.botones:hover{
+    color: #5a6169;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .titular{
     text-align: center;
     margin-top: 200px;
@@ -141,3 +148,81 @@ span{
 .porque-singular{
     width: 30%;
 }
+
+#blog{
+    background: #f9fafc;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section{
+    background: #f9fafc;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contenedor-publicaciones{
+    display: flex;
+    justify-content: space-around;
+}
+.publicacion{
+    width: 30%;
+    box-shadow: 5px 5px 15px rgba(130, 151, 170, 0.504);
+    padding: 25px;
+
+}
+.publicacion img{
+    width: 100%;
+}
+
+
+.publicacion h4{
+    font-size: 23px;
+    margin: 0;
+    padding: 15px;
+    height: 60px;
+}
+
+.publicacion p{
+    color: #5a6169;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 0px !important; /*el important es cuando ya se aplicaba una propiedad y no detecta una segunda, entonces para que la detecte ponemos !important*/
+}
+
+.publicacion a{
+    display: inline-block;/*convierte un elemento de enlinea en bloque*/
+    margin-left: 15px;
+
+}
+
+
+
+#que-esperas .botones{
+    padding: 15px 40px 15px 40px;
+    transition: .7s;
+
+}
+
+#que-esperas .botones:hover{
+    color: #5a6169;
+    /* transform: rotate(180deg);
+    display: inline-block; */
+    padding: 20px 50px 20px 50px;
+    transition: 0.3s;
+
+}
+#que-esperas{
+    background: linear-gradient(rgba(84,93,220,.94),/*linear gradient lo que hace es un degradé entre dos colore que se pasan como parámetros*/
+    rgba(169, 202, 235, 0.9));/*rgb - son los colores
+                                  rgba- son los colores mas la transparencia, donde el cuarto parámetro es alfa*/
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+#que-esperas h3{
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+
