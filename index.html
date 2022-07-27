@@ -5,9 +5,10 @@
     <title>Portfolio Nicolás</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap" rel="stylesheet">
-
+    
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
 
 <body>
@@ -15,6 +16,7 @@
 <div class="contenedor">
     <div class="menu">
         <p class="nombre">NICOLAS RODRIGUEZ</p>
+        <img class="menu-icon"src="menu-icono.png" alt="">
         <nav>
             <ul class="lista">
                 <li>About me</li>
@@ -159,7 +161,11 @@
     </div>
 </section>
 
-
+<section id="whatsapp">
+    <a href="https://web.whatsapp.com/">
+        <img src="whatsapp.png" alt="">
+    </a>
+</section>
 
 <script src="owlcarousel/jquery.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
@@ -181,6 +187,12 @@
         }
     }
 })
+
+$('.menu-icon').click(function(){
+    $('header nav').slideToggle();
+})
 </script>
+
+
 </body>
 </html>

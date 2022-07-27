@@ -224,5 +224,84 @@ section{
     color: #fff;
     margin-bottom: 40px;
 }
+#whatsapp{
+    background: none;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    padding: 0;
+}
 
+.menu-icon{
+    display: none;
+}
+@media (max-width: 821px){
+    /* se va a aplicar cuando el maximo de ancho sea 480 px */
 
+    nav{
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: #40a8fa;
+        width: 100%;
+        display: none;
+    }
+
+    nav .lista{
+        flex-direction: column;
+    }
+    .menu-icon{
+        display: block;
+        background: #fff;
+        margin: 0px;
+    }
+
+    .titular{
+        margin-top: 40px;
+    }
+    h1{
+        font-size: 49px;
+    }
+    h2{
+        font-size: 19px;
+    }
+    .contenedor-sobre-mi{
+        flex-direction: column;
+    }
+    .contenedor-parrafoyboton{
+        width: 96%;
+    }
+    .contenedor-servicios{
+        flex-direction: column;
+    }
+    .servicio{
+        width: 75%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    h3{
+        font-size: 46px;
+    }
+    .contenedor-porque{
+        flex-direction: column;
+    }
+    .porque-singular{
+        width: 95%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .contenedor-publicaciones{
+        flex-direction: column;
+    }
+    .publicacion{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 700px )and(max-width: 900px){
+    header{
+        height: 53vh;
+    }
+}
